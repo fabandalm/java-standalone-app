@@ -7,10 +7,10 @@ package com.falmeida.tech.domain;
  */
 public class StudentPopulation {
 
-	String province;
-	String city;
-	String school;
-	int population;
+	private String province;
+	private String city;
+	private String school;
+	private int population;
 	
 	public StudentPopulation(String province,String city,String school,int population) {
 		this.province = province;
